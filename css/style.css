@@ -1,0 +1,267 @@
+/* Global css */
+@import url(link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&amp;subset=cyrillic-ext" rel="stylesheet");
+
+body{
+
+
+    font-family:'PT Sans', sans-serif;
+    /*
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+     font-family: 'Roboto', sans-serif;
+    */
+}
+
+/* Header Section */
+.nav-item{
+    font-size: 15px;
+    font-family:'PT Sans', sans-serif;
+    text-transform: uppercase;
+    padding:20px 0px;
+    position: 0;
+    text-align: center;
+    color: black;
+}
+
+
+.banner{
+    background-color: #fcdb00;
+    width: 100%;
+}
+
+.tinyone-logo{
+    margin: 20px 10px;
+}
+
+/* Inspire Section */
+
+.Inspire{
+    width: 100%;
+    background-color: #fcdb00;
+    height: 550px;
+    padding: 20px 0px;
+}
+
+.Inspire-image{
+    text-align: center;
+    width: 100% auto;
+    padding-top: 20px;
+}
+
+.Inspire-text h5{
+     text-align: left;
+     color:black;
+     font-family: 'Roboto', sans-serif;
+     font-size: 30px;
+     padding-top: 20px 0px;
+}
+
+.Inspire-text h6{
+     text-align: left;
+     color:#313841;
+     font-family: 'Handlee', cursive;
+     font-size: 20px;
+     padding: 5px 0px;
+}
+
+.Inspire-text p{
+     text-align: left;
+     color:#313841;
+     font-family: 'Handlee', cursive;
+     font-size: 15px;
+     padding: 5px 0px;
+}
+
+.Inspire-text .fa{
+    display: inline;
+    margin: 0px 8px;
+    font-size: 20px;
+    color: black;
+}
+.Inspire-circl .fa{
+    margin: 0 auto;
+    font-size: 10px;  
+    color: white; 
+    padding-bottom: 40px;
+}
+
+.Inspire-text{
+    padding-top: 50px;
+}
+
+.Inspire-circl .fa{
+    padding-bottom: 80px;
+}
+
+/* Tinyone Section */
+
+.tinyone h3{
+     color:black;
+     font-family: 'Roboto', sans-serif;
+     font-size: 30px;
+     padding: 5px 0px;
+     text-align: center;
+}
+
+.tinyone h4{
+     color:#313841;
+     font-family: 'Handlee', cursive;
+     font-size: 15px;
+     padding: 5px 0px;
+     text-align: center;
+     padding-bottom: 20px;
+}
+
+.tinyone h3{
+    padding-top: 100px;
+}
+.tinyone{
+    width: 100%;
+    background-color: white;
+    height: 650px;
+    padding: 20px 0px;
+}
+
+.tinyone h6{
+     text-align: left;
+     color:black;
+     font-family: 'Roboto', sans-serif;
+     font-size: 20px;
+     padding: 5px 0px;
+     text-align: left;
+    padding-top: 20px;
+}
+
+.tinyone p{
+     text-align: left;
+     color:#313841;
+     font-family: 'Handlee', cursive;
+     font-size: 15px;
+     padding: 5px 0px;
+     text-align: left;
+}
+
+.tinyone .fa{
+    font-size: 50px;  
+    color: black; 
+    text-align: center;
+     padding-top: 20px;
+}
+
+/* Keep Section */
+
+.keep{
+     width: 100%;
+     background-color: black;
+     height: 780px;
+}
+.keep h3{
+     color:black;
+     font-family: 'Roboto', sans-serif;
+     font-size: 25px;
+     padding-top: 80px;
+     text-align: center;
+     color: #fcdb00;
+}
+
+.keep h4{
+     color:#7a7c7e;
+     font-family: 'Handlee', cursive;
+     font-size: 15px;
+     text-align: center;
+     color: 464646;
+     padding: 20px 0px;
+}
+.keep .fa{
+    font-size: 25px;
+    color: #fcdb00; 
+    padding: 5px;
+    position: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    text-align: center;
+    position: center;
+}
+.keep p{
+    text-align: left;
+     color:#7a7c7e;
+     font-family: 'Handlee', cursive;
+     font-size: 15px;
+     padding-top:50px;
+}
+.border{
+    color: #d4d4d4;
+}
+
+/* Media Query */
+@media (min-width: 0px) and (max-width: 500px){
+
+    .Inspire{
+    width: 100%;
+    background-color: #fcdb00;
+    height: 770px;
+    padding: 20px 0px;
+}
+
+.Inspire-image{
+    text-align: center;
+    width: 80% auto;
+    padding-top: 15px;
+}
+.Inspire-text h5{
+     text-align: left;
+     color:black;
+     font-family: 'Roboto', sans-serif;
+     font-size: 20px;
+     padding-top: 10px 0px;
+}
+
+.Inspire-text h6{
+     text-align: left;
+     color:#313841;
+     font-family: 'Handlee', cursive;
+     font-size: 15px;
+     padding: 5px 0px;
+}
+
+.Inspire-text p{
+     text-align: left;
+     color:#313841;
+     font-family: 'Handlee', cursive;
+     font-size: 15px;
+     padding: 5px 0px;
+}
+.tinyone{
+    width: 100%;
+    background-color: white;
+    height: 1600px;
+    padding: 20px 0px;
+}
+.tinyone .fa{
+    font-size: 30px;  
+    color: black; 
+    text-align: center;
+     padding-top: 25px;
+}
+.keep h3{
+     color:black;
+     font-family: 'Roboto', sans-serif;
+     font-size: 25px;
+     padding-top: 70px;
+     text-align: center;
+     color: #fcdb00;
+}
+
+.keep h4{
+     color:#313841;
+     font-family: 'Handlee', cursive;
+     font-size: 12px;
+     text-align: center;
+     color: 464646;
+}
+
+
+
+}
+
+
